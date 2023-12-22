@@ -1,5 +1,5 @@
 # Singleton Pattern
-[ Creational Design Patterns ]
+Creational Design Patterns
 
 **Single Instance**
 
