@@ -1,0 +1,11 @@
+# Comparison between Class Adapter and Object Adapter patterns:
+
+| Feature                                  | Class Adapter                                                               | Object Adapter                                                                                        |
+| ---------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Structure**                            | Inherits from Target and Adaptee classes                                    | Contains an instance of the Adaptee class                                                             |
+| **Code Reusability**                     | Reuses Adaptee's functionality through inheritance                          | Adapts Adaptee's functionality through delegation                                                     |
+| **Flexibility**                          | Limited flexibility due to single inheritance                               | Greater flexibility, can adapt classes not subtypes of Adaptee                                        |
+| **Client Code**                          | Interacts with the Adapter through the Target interface                     | Interacts with the Adapter through the Target interface                                               |
+| **Implementation**                       | Requires access to Adaptee's source code for inheritance                    | Can adapt classes without modifying their source code                                                 |
+| **Suitability for Sealed/Final Classes** | May not be suitable for adapting sealed or final classes                    | Suitable for adapting sealed or final classes                                                         |
+| **Use Cases**                            | Adapting existing class and its subclasses when source code can be modified | Adapting classes or interfaces not necessarily related to Adaptee, especially sealed or final classes |
