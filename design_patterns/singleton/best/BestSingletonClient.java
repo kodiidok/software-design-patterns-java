@@ -1,6 +1,16 @@
 package design_patterns.singleton.best;
 
-public class Driver {
+enum Singleton {
+  
+  INSTANCE;
+
+  public String sendMessage() {
+    return "Hello, I'm an enum singleton!";
+  }
+
+}
+
+public class BestSingletonClient {
   
   public static void main(String[] args) {
     Singleton singleton = Singleton.INSTANCE;
