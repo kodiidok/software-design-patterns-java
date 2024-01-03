@@ -6,7 +6,7 @@ Description: The email system empowers users to send and receive emails, manage 
 
 ## 2. Library Management System:
 
-Description: The library management system oversees tasks such as adding books, managing member records, and facilitating book borrowing. A more intricate action is the ability to "Renew Books," extending the core functionality of borrowing.
+The Library Management System involves the Librarian and Members. The Librarian oversees book additions, member records, and system management. Members engage in tasks like browsing and borrowing books. "Renew Books," allows Members to extend book borrowings online for added convenience.
 
 ## 3. Online Shopping System:
 
