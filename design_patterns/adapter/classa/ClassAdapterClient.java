@@ -1,5 +1,9 @@
 package design_patterns.adapter.classa;
 
+interface Target {
+  void request();
+}
+
 class Adapter extends Adaptee implements Target {
 
   @Override
@@ -13,10 +17,6 @@ class Adaptee {
   void specificRequest() {
     System.out.println("This is the special request of Adaptee");
   }
-}
-
-interface Target {
-  void request();
 }
 
 public class ClassAdapterClient {

@@ -20,3 +20,53 @@ Structural design patterns are concerned with composing classes and objects to f
 ## Behavioral Design Patterns
 
 Behavioral design patterns are dedicated to defining the ways in which objects interact and communicate with one another. These patterns address the delegation of responsibilities between objects and the flow of communication, allowing for more flexible and efficient collaboration. Behavioral patterns help design systems where the interaction between objects is dynamic and can change during runtime, providing a more adaptable and maintainable architecture.
+
+# UML diagrams of design patterns
+
+## Singleton
+![singleton](assets/singleton.png)
+
+## Enum Singleton
+![enum-singleton](assets/enum-singleton.png)
+
+## Simple Factory
+![simple-factory](assets/simple-factory.png)
+
+## Factory
+![factory](assets/factory.png)
+
+## Abstract Factory
+![abstract-factory](assets/abstract-factory.png)
+
+## Decorator
+![decorator](assets/decorator.png)
+
+## Class Adapter
+![class-adapter](assets/class-adapter.png)
+
+## Object Adapter
+![object-adapter](assets/object-adapter.png)
+
+## Builder
+![builder](assets/builder.png)
+
+## Mediator
+![mediator](assets/mediator.png)
+
+## Strategy
+![strategy](assets/strategy.png)
+
+## Facade
+![facade](assets/facade.png)
+
+## Facade Subsystem
+![facade-subsystem](assets/facade-subsystem.png)
+
+## Iterator
+![iterator](assets/iterator.png)
+
+## Class Bridge
+![class-bridge](assets/class-bridge.png)
+
+## Object Bridge
+![object-bridge](assets/object-bridge.png)
